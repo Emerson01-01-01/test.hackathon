@@ -5,7 +5,7 @@ import json
 import io
 from openai import OpenAI
 
-# ---------- Configuración de la página ----------
+# ---------- Configuración de la págiana ----------
 st.set_page_config(page_title="Imagen a Excel", layout="centered")
 st.title("📸 Imagen a Excel (Demo para Hackathon)")
 st.write("Sube una foto que contenga datos de una tabla y la IA extraerá la información automáticamente para generar un archivo Excel.")
